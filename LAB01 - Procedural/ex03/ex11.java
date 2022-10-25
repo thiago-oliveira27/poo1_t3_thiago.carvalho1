@@ -1,4 +1,3 @@
-package poo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -9,9 +8,9 @@ public class ex11 {
 	
 	/*
 		Uma piscina de bolinhas possui bolas azuis, verdes, amarelas e vermelhas. 
-		Faça um programa em que o usuário digita a quantidade de 
+		Faï¿½a um programa em que o usuï¿½rio digita a quantidade de 
 		bolinhas de cada cor existente em uma piscina e mostra a
-		probabilidade de ocorrência de cada cor, indicando qual possui 
+		probabilidade de ocorrï¿½ncia de cada cor, indicando qual possui 
 		a maior probabilidade
 	 
 	 */

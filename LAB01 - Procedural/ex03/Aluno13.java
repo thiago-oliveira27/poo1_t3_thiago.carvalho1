@@ -1,14 +1,13 @@
-package poo;
 public class Aluno13 {
 	
 	/*
-	 Faça um programa que armazene informações sobre os alunos de uma universidade.
-	  O número máximo de alunos que o sistema pode cadastrar é 10000. 
-	  Os dados a serem armazenados são: número de matrícula (inteiro); 
+	 Faï¿½a um programa que armazene informaï¿½ï¿½es sobre os alunos de uma universidade.
+	  O nï¿½mero mï¿½ximo de alunos que o sistema pode cadastrar ï¿½ 10000. 
+	  Os dados a serem armazenados sï¿½o: nï¿½mero de matrï¿½cula (inteiro); 
 	  classe social (A, B, C, D ou E); CRA (real).
-	   Ao iniciar o programa, informe quantos usuários serão cadastrados. 
+	   Ao iniciar o programa, informe quantos usuï¿½rios serï¿½o cadastrados. 
 	   Depois de realizado o cadastro, 
-	   mostre todos os dados lidos. A saída do programa deve ser como o exemplo abaixo.
+	   mostre todos os dados lidos. A saï¿½da do programa deve ser como o exemplo abaixo.
 	 */
 	private int matricula;
 	private char classe;
@@ -42,7 +41,7 @@ public class Aluno13 {
 	 @Override
 	    public String toString() {
 		 
-	        return "Número: " + matricula  +
+	        return "Nï¿½mero: " + matricula  +
 	               " Classe Social: " + classe  +
 	               " CRA: " + cra;
 	    }

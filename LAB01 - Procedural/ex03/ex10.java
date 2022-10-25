@@ -1,4 +1,3 @@
-package poo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,10 +6,10 @@ import java.lang.Math.*;
 public class ex10 {
 	
 	/*
-		Leia 5 números inteiros e armazene em um vetor v. Crie dois novos vetores v1 e v2. 
-		Copie os valores ímpares de v para v1, e os valores pares de v para v2. 
-		Note que cada um dos vetores v1 e v2 tem no máximo 5 elementos, 
-		mas nem todos os elementos são utilizados. 
+		Leia 5 nï¿½meros inteiros e armazene em um vetor v. Crie dois novos vetores v1 e v2. 
+		Copie os valores ï¿½mpares de v para v1, e os valores pares de v para v2. 
+		Note que cada um dos vetores v1 e v2 tem no mï¿½ximo 5 elementos, 
+		mas nem todos os elementos sï¿½o utilizados. 
 		No final escreva os elementos UTILIZADOS de v1 e v2.
 	 
 	 */
@@ -23,7 +22,7 @@ public class ex10 {
 		ArrayList<Integer> V2 = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("<< Pares e Ímpares >>");
+        System.out.println("<< Pares e ï¿½mpares >>");
        
         for(int i = 0;i<5;i++){       	
         	System.out.printf("Digite o valor %d: ", n);
@@ -39,7 +38,7 @@ public class ex10 {
         	}        	
         }
                 
-        System.out.printf("Ímpares: ");
+        System.out.printf("ï¿½mpares: ");
         for(int i=0;i<V1.size();i++) {
         	System.out.printf("%d ",V1.get(i)); 
         }

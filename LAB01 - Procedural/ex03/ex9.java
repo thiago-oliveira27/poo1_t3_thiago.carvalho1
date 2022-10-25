@@ -1,4 +1,3 @@
-package poo;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,8 +6,8 @@ import java.lang.Math.*;
 public class ex9 {
 	
 	/*
-	 Faça um programa que receba do usuário dois arrays  A e B,
-	  com 3 números inteiros cada. Crie um novo array C calculando 
+	 Faï¿½a um programa que receba do usuï¿½rio dois arrays  A e B,
+	  com 3 nï¿½meros inteiros cada. Crie um novo array C calculando 
 	  C = A - B. Mostre na tela os dados do array C.
 	 
 	 */
@@ -21,7 +20,7 @@ public class ex9 {
 		ArrayList<Integer> C = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
         
-        System.out.println("<< Subtração de vetores >>\n");
+        System.out.println("<< Subtraï¿½ï¿½o de vetores >>\n");
        
         for(int i = 0;i<3;i++){       	
         	System.out.printf("Digite o valor %d de A: ", n);
@@ -40,7 +39,7 @@ public class ex9 {
         for(int i=0;i<3;i++) {
         	C.add((A.get(i)-B.get(i))); 
         }
-        System.out.printf("\n\nO vetor C, definido como C = A-B é (%d,%d,%d)", C.get(0),C.get(1),C.get(2));
+        System.out.printf("\n\nO vetor C, definido como C = A-B ï¿½ (%d,%d,%d)", C.get(0),C.get(1),C.get(2));
            
 	}
 
