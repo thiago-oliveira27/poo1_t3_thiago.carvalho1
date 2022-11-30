@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /*Ex05
 Uma empresa tem quatro tipos de funcionários: chefes, vendedores, operários e horistas.
  Cada um desses funcionários ganha seus salários conforme regras distintas, apresentadas a seguir: 
@@ -14,10 +16,14 @@ Além disso, crie uma classe *Empresa*, que conterá o método *main()*. A empre
 logo crie um vetor (array) para cada tipo de funcionário*. 
 */
 
-public class Empresa{
-    public static void main(String[] args){
-        
+public class Empresa {
+    public static void main(String[] args) {
 
+        ArrayList<Horista> horista = new ArrayList<>();
+        ArrayList<Operario> operario = new ArrayList<>();
+        ArrayList<Horista> vendedor = new ArrayList<>();
+        ArrayList<Chefe> chefe = new ArrayList<>();
+        System.out.println("Compilou");
 
     }
 }

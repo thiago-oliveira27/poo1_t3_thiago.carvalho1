@@ -1,3 +1,3 @@
-public class Chefe extends Funcionario{
-    
+public class Chefe extends Funcionario {
+
 }
