@@ -13,3 +13,11 @@ A classe *Funcionario* deve incluir os campos privados *nome*, *dataNascimento* 
 Além disso, crie uma classe *Empresa*, que conterá o método *main()*. A empresa tem vários funcionários, 
 logo crie um vetor (array) para cada tipo de funcionário*. 
 */
+
+public class Empresa{
+    public static void main(String[] args){
+        
+
+
+    }
+}
