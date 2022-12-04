@@ -1,3 +1,5 @@
+package ex05;
+
 public class Funcionario {
 
     // A classe *Funcionario* deve incluir os campos privados *nome*,
@@ -6,6 +8,10 @@ public class Funcionario {
     private String nome;
     private String dataNascimento;
     private double salario;
+    
+    public Funcionario() {
+    	
+    }
 
     public Funcionario(String nome, String dataNascimento, double salario) {
 
@@ -57,6 +63,10 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public double salarioPadrao(double salario) {
+        return this.salario = salario;
+    }
+    
     @Override
     public String toString() {
         return "Nome: " + nome +
